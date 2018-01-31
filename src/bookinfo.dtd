@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bookdetails (book*)>
+<!ELEMENT book (code,name,price,publish-date )>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT publish-date (dd,mm,yy)>
+<!ELEMENT dd (#PCDATA)>
+<!ELEMENT mm (#PCDATA)>
+<!ELEMENT yy (#PCDATA)>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookdetails SYSTEM "bookinfo.dtd" >
+<bookdetails>
+ <book>
+ <code>101</code>
+ <name>java</name>
+ <price>299</price>
+ <publish-date>
+ <dd>22</dd>
+ <mm>3</mm>
+ <yy>2006</yy>
+ </publish-date>
+ </book>
+ <book>
+ <code>102</code>
+ <name>c++</name>
+ <price>300</price>
+ <publish-date>
+ <dd>22</dd>
+ <mm>8</mm>
+ <yy>1991</yy>
+ </publish-date>
+ </book>
+ <book>
+ 	<code>100</code>
+ 	<name>adv java</name>
+ 	<price>200</price>
+ 	<publish-date>
+ 		<dd>4</dd>
+ 		<mm>5</mm>
+ 		<yy>1992</yy>
+ 	</publish-date>
+ </book>
+
+</bookdetails>
