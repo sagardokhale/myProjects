@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="Account" table="Account">
+<id name="accNO" column="ACCNO">
+<generator class="assigned"/>
+</id>
+<component name="name" class="Name">
+<property name="first" column="FIRST"/>
+<property name="middle" column="MIDDLE"/>
+<property name="last" column="LAST"/>
+</component>
+<property name="balance" column="BALANCE"/>
+</class>
+</hibernate-mapping>

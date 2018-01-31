@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+Z:\adv java\hql\.metadata\.plugins\org.eclipse.jdt.core

@@ -1,0 +1,34 @@
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+
+public class hqlApp {
+	public static void main(String[] args) {
+		Configuration cfg=new Configuration();
+		Configuration c=cfg.configure();
+		SessionFactory f=c.buildSessionFactory();
+		Session session=f.openSession();
+		Transaction tr=session.beginTransaction();
+		//Query query=session.createQuery("from Book");
+		//Query query=session.createQuery("select b.book,b.price from Book b");
+		Query query=session.createQuery("from Book b where b.price>400");
+		List bookrecords=query.list();
+		Iterator it=bookrecords.iterator();
+		while(it.hasNext())
+		{
+			Book book=(Book) it.next();
+			System.out.println(book);
+			session.save(book);
+		}
+		tr.commit();
+		session.flush();
+		session.close();
+	}
+
+}

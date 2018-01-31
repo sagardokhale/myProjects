@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/ant-antlr-1.6.2.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/antlr-2.7.4.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/cglib-full-2.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/dom4j-1.5.2.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/ehcache-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/jta.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="E:/java/SEED JAVA PROGRAM/ajavaa11_20_New/adv java/Lib_Hibernate3.0/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc5.jar"/>
+	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6_g.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
